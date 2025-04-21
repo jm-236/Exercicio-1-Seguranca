@@ -4,8 +4,6 @@
 #include <limits> // Para numeric_limits
 using namespace std;
 
-const string alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
 // Função para cifrar um caractere usando César com deslocamento k
 char cifrarCaractere(char c, int k) {
     if (!isalpha(c)) return c; // Mantém caracteres não alfabéticos
@@ -33,7 +31,7 @@ string cifrarCesar(const string& texto, int k) {
 int main() {
     int k; // Deslocamento da cifra 
     
-    cout << "Cifra de Deslocamento\n";
+    cout << "Cifra de Deslocamento - codificação\n";
     cout << "--------------------\n";
     
     while (true){
